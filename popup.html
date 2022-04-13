@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+
+<head>
+    <style>
+        body {
+            min-width: 650px;
+            overflow-x: hidden;
+            font-family: 'Segoe UI', sans-serif, sans-serif, sans-serif;
+            padding: 1px 1px 1px 1px;
+            margin: 0;
+            max-width: 650px;
+        }
+
+        head {
+            margin: 0;
+            overflow-x: hidden;
+            padding: 1px 1px 1px 1px;
+            max-width: 100%;
+        }
+
+        ::-webkit-scrollbar:horizontal {
+            display: none;
+        }
+
+        #links {
+            margin-top: 0px;
+            overflow-x: hidden;
+        }
+
+
+        li {
+            list-style-type: none;
+            padding: 9px 5px 11px 10px;
+            margin-left: -11px;
+            max-width: 100%;
+            overflow-x: hidden;
+
+            background: #ffffff;
+            border-bottom: 1px solid #bbbbbb;
+            border-top: 1px solid #ffffff;
+        }
+
+        li:hover {
+            background-color: #F0F3FC;
+            overflow: hidden;
+            color: #3125d8
+        }
+
+        li a {
+            text-decoration: none;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: block;
+            block-size: fit-content;
+            writing-mode: horizontal-lr;
+            color: #110606;
+            font-size: 16px;
+            font-weight: 620;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            padding-top: 0px;
+            padding-bottom: 2.5px;
+            overflow-x: hidden;
+        }
+
+        li a:hover {
+            color: blue;
+        }
+
+
+        .age {
+            font-size: 12px;
+            color: #909090;
+            height: 12px;
+            padding-bottom: 5px;
+        }
+
+        .subr {
+            font-size: 12px;
+            color: #909090;
+            height: 12px;
+            padding-bottom: 5.5px;
+        }
+
+        .subr a {
+            font-size: 12px;
+            color: #909090;
+            height: 12px;
+            text-decoration: none;
+            font-weight: normal;
+        }
+
+        .subr a:hover {
+            text-decoration: underline;
+            color: #585858;
+        }
+
+        .score {
+            display: block;
+            height: 100%;
+            width: 40px;
+            font-size: 22px;
+            font-weight: 640;
+            text-align: center;
+            float: left;
+            color: #969696;
+            margin: 14px 20px 5px 17px;
+        }
+
+        .header {
+            margin-top: 0 auto;
+            overflow-x: hidden;
+        }
+
+        .head {
+            margin-top: 0 auto;
+            overflow-x: hidden;
+        }
+
+        .header h1 {
+            margin: 0 auto;
+            overflow-x: hidden;
+        }
+    </style>
+    <link href='http://fonts.googleapis.com/css?family=Shanti' rel='stylesheet' type='text/css'>
+    <script src="jquery.min.js" language="javascript"></script>
+    <script src="lscache.min.js"></script>
+    <script src="shared.js"> </script>
+    <script src="popup.js"></script>
+</head>
+
+<body>
+    <div id="links">
+
+    </div>
+    <div id="timeout">
+        No available posts for the current URL.
+        Try some news articles, YouTube videos, or blog posts!
+    </div>
+
+    <div id="blacklisted">
+        Try some news articles or popular YouTube videos!
+    </div>
+</body>
+
+</html>
